@@ -279,16 +279,19 @@ img {
   margin-right: .75rem;
 }
 
-.education__content {
+.education__content,
+.courses__content {
   display: flex;
 
 }
 
-.education__time {
+.education__time,
+.courses__time {
   padding-right: 1rem;
 }
 
-.education__rounder {
+.education__rounder,
+.courses__rounder {
   position: relative;
   display: block;
   height: 16px;
@@ -298,7 +301,8 @@ img {
   margin-top: .25rem;
 }
 
-.education__line {
+.education__line,
+.courses__line {
   display: block;
   width: 2px;
   height: 110%;
@@ -306,19 +310,27 @@ img {
   transform: translate(7px, 0);
 }
 
-.education__data {
+.education__data,
+.courses__data{
   gap: .5rem;
 }
 
-.education__title {
+.education__title,
+.courses__title {
   font-size: var(--h3-font-size);
 }
 
-.education__studies {
+.education__studies,
+.courses__company {
   font-size: var(--small-font-size);
   color: var(--title-color);
 }
 
 .education__year {
   font-size: var(--smaller-font-size);
+}
+
+.projects__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
 }
