@@ -260,17 +260,20 @@ img {
   margin-right: .25rem;
 }
 
-.skills__content {
+.skills__content,
+.languages__content {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.skills__name {
+.skills__name,
+.languages__name {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-3);
 }
 
-.skills__circle {
+.skills__circle,
+.languages__circle {
   display: inline-block;
   width: 5px;
   height: 5px;
@@ -282,7 +285,6 @@ img {
 .education__content,
 .courses__content {
   display: flex;
-
 }
 
 .education__time,
