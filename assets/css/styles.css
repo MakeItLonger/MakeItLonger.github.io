@@ -317,7 +317,7 @@ img {
 }
 
 .education__rounder,
-.courses__rounder
+.courses__rounder,
 .experience__rounder {
   position: relative;
   display: block;
@@ -329,7 +329,7 @@ img {
 }
 
 .education__line,
-.courses__line
+.courses__line,
 .experience__line {
   display: block;
   width: 2px;
