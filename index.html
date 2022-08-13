@@ -36,6 +36,12 @@
                     </li>
 
                     <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
                         <a href="#projects" class="nav__link">
                             <i class='bx bxs-folder-open nav__icon'></i>Projects
                         </a>
@@ -47,11 +53,6 @@
                         </a>
                     </li>
 
-                    <li class="nav__item">
-                        <a href="#experience" class="nav__link">
-                            <i class='bx bx-briefcase-alt nav__icon'></i>Experience
-                        </a>
-                    </li>
                 </ul>
             </div>
 
@@ -81,7 +82,7 @@
 
                     <div class="home__address bd-grid">
                         <span class="home__information">
-                            <i class='bx bx-map home__icon'></i>Chernivtsi - Ukraine (willing to relocate)
+                            <i class='bx bx-map home__icon'></i>Chernivtsi - Ukraine
                         </span>
                         <span class="home__information">
                             <i class='bx bx-envelope home__icon'></i>
@@ -89,8 +90,7 @@
                         </span>
                         <span class="home__information">
                             <i class='bx bx-phone home__icon'></i>
-                            <a title="call Vadym" href="tel:+380953304072">+38(095)330-40-72</a>
-                        </span>
+                            <a title="call Vadym" href="tel:+380932027503">+38(093)202-75-03</a>
                     </div>
 
                     <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
@@ -102,8 +102,8 @@
                     <h2 class="section-title">SOCIAL</h2>
 
                     <div class="social__container bd-grid">
-                        <a title="go to Linkedin profile" href="https://www.linkedin.com/in/zavadiuk" target="_blank" class="social__link">
-                            <i class='bx bxl-linkedin social__icon'></i>@zavadiuk
+                        <a title="go to Linkedin profile" href="https://www.linkedin.com/in/v-zavadiuk" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin social__icon'></i>@v-zavadiuk
                         </a>
                         <a title="text Vadym in Telegram" href="https://t.me/vadym_zavadiuk" target="_blank" class="social__link">
                             <i class='bx bxl-telegram social__icon'></i>@vadym_zavadiuk
@@ -120,13 +120,13 @@
                     <div class="skills__content bd-grid">
                         <ul class="skills__data">
                             <li class="skills__name">
-                                <span class="skills__circle"></span>HTML
+                                <span class="skills__circle"></span>Angular
                             </li>
                             <li class="skills__name">
-                                <span class="skills__circle"></span>CSS
+                                <span class="skills__circle"></span>RxJS
                             </li>
                             <li class="skills__name">
-                                <span class="skills__circle"></span>JavaScript
+                                <span class="skills__circle"></span>Git
                             </li>
                             <!-- <li class="skills__name">
                                     <span class="skills__circle"></span>React
@@ -138,13 +138,13 @@
                                     <span class="skills__circle"></span>Redux
                                 </li> -->
                             <li class="skills__name">
+                                <span class="skills__circle"></span>TypeScript
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Javascript
+                            </li>
+                            <li class="skills__name">
                                 <span class="skills__circle"></span>Webpack
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>Git
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span>React
                             </li>
                         </ul>
                     </div>
@@ -197,11 +197,74 @@
             </div>
 
             <div class="resume__right">
+
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">ASSOCIATE SOFTWARE ENGINEER</h3>
+                                <span class="exeprience_company">
+                                    2022 - NOW |
+                                    <a title="go to the company's website" href="https://dev.pro/" target="_blank">
+                                        Dev.Pro
+                                    </a>
+                                    | 8 months
+                                </span>
+
+                                <p class="experience-description">Angular, TypeScript, RxJs, Javascript
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">AUTOMATION ENGINEER (irrelevant)</h3>
+                                <span class="exeprience_company">
+                                    2013 - 2021 | 
+                                    <a title="go to the company's website" href="https://viknastyle.com.ua/" target="_blank">
+                                        ViknaStyle
+                                    </a>
+                                    | 8 years
+                                </span>
+                                <p class="experience-description">
+                                    AutoCAD, 1C, RasKon, KABAN, Lisec, Fom, Excel, Jira
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section class="projects section" id="projects">
                     <h2 class="section-title">Projects</h2>
 
                     <div class="projects_container bd-grid">
                         <div class="projects__content">
+                            <h3 class="projects__title">
+                                <a title="go to project in Web" href="https://medium-clone-makeitlonger.vercel.app/" target="_blank">
+                                    Blog Clone of Medium
+                                </a>
+                                <a title="go to project in GitHub" href="https://github.com/MakeItLonger/medium-clone" target="_blank" class="social__link">
+                                    <i class='bx bxl-github social__icon'></i>
+                                </a>
+                            </h3>
+                            <p class="projects_desription">
+                                Angular, TypeScript, RxJs, Javascript
+                            </p>
+                        </div>
+
+                        <!-- <div class="projects__content">
                             <h3 class="projects__title">
                                 <a title="go to project in Web" href="https://speed-words-makeitlonger.vercel.app/" target="_blank">
                                     Game 'Speed Words'
@@ -228,7 +291,7 @@
                                 React, useState, useEffect, AJAX, Error handling, JSON,
                                 Mockapi, Post-requests
                             </p>
-                        </div>
+                        </div> -->
 
                         <div class="projects__content">
                             <h3 class="projects__title">
@@ -261,7 +324,7 @@
                         <div class="projects__content">
                             <h3 class="projects__title">
                                 <a title="go to project in Web" href="https://makeitlonger.github.io/cinema-club" target="_blank">
-                                    Cinema-club
+                                    Moovie Catalog 'Cinema-club'
                                 </a>
                                 <a title="go to project in GitHub" href="https://github.com/MakeItLonger/cinema-club" target="_blank" class="social__link">
                                     <i class='bx bxl-github social__icon'></i>
@@ -285,6 +348,52 @@
                     <h2 class="section-title">Courses</h2>
 
                     <div class="courses__container bd-grid">
+
+                        <div class="courses__content">
+                            <div class="courses__time">
+                                <span class="courses__rounder"></span>
+                                <span class="courses__line"></span>
+                            </div>
+
+                            <div class="courses__data bd-grid">
+                                <h3 class="courses__title"><a title="go to course on Udemy" href="https://www.udemy.com/course/the-complete-guide-to-angular-2/" target="_blank">Angular - The Complete Guide</a>
+                                </h3>
+                                <p class="courses-description">
+                                    from
+                                    <a title="go to author on Udemy" href="https://www.udemy.com/user/maximilian-schwarzmuller/" target="_blank">
+                                        Maximilian Schwarzmüller (2022) | 2 months
+                                    </a>
+                                </p>
+                                <span class="courses_company">
+                                    Components, Directives, Pipes, Observable, Services, Forms etc.
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="courses__content">
+                            <div class="courses__time">
+                                <span class="courses__rounder"></span>
+                                <span class="courses__line"></span>
+                            </div>
+
+                            <div class="courses__data bd-grid">
+                                <h3 class="courses__title">Mentoring Javascript and Angular
+                                </h3>
+                                <p class="courses-description">
+                                    from
+                                        <a title="go to the company's website" href="https://dev.pro/" target="_blank">Dev.Pro</a> (2022) | 3 months
+
+                                </p>
+                                <span class="courses_company">
+                                    Data Types, Hoisting,
+                                        Function,s Recursion,
+                                        Object, Context
+                                        Prototypes, Classes, etc.
+                                </span>
+                            </div>
+                        </div>
+
+                    <!-- <div class="courses__container bd-grid">
                         <div class="courses__content">
                             <div class="courses__time">
                                 <span class="courses__rounder"></span>
@@ -303,30 +412,30 @@
                                     Context, Reducer, React-Router, Material UI, React Hook Form, Axious, Redux, Redux-thunk
                                 </span>
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="courses__content">
                             <div class="courses__time">
                                 <span class="courses__rounder"></span>
-                                <span class="courses__line"></span>
+                                <!-- <span class="courses__line"></span> -->
                             </div>
 
                             <div class="courses__data bd-grid">
                                 <h3 class="courses__title">Mentoring Javascript</h3>
                                 <p class="courses-description">
-                                    by 
+                                    from 
                                     <a title="go to GitHub profile" href="https://github.com/Severenit" target="_blank">
-                                        Zar Zakharov (2021)
+                                        Zar Zakharov (2021) | 2 months
                                     </a>
                                 </p>
                                 <span class="courses_company">Browser API, Asynchronous programming, Canvas, Webpack, WebSocket, Babel, Error handling</span>
                             </div>
                         </div>
 
-                        <div class="courses__content">
+                        <!-- <div class="courses__content">
                             <div class="courses__time">
                                 <span class="courses__rounder"></span>
-                                <!-- <span class="courses__line"></span> -->
+                                <span class="courses__line"></span>
                             </div>
 
                             <div class="courses__data bd-grid">
@@ -336,7 +445,7 @@
                                     DOM, NPM, ES6, JSX, Props, State, VirtualDOM, Hooks, CSS Modules, styled-components, ReactDOM
                                 </span>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- <div class="courses__content">
                             <div class="courses__time">
@@ -355,40 +464,13 @@
                     </div>
                 </section>
 
-                <section class="experience section" id="experience">
-                    <h2 class="section-title">Experience</h2>
-
-                    <div class="experience__container bd-grid">
-                        <div class="experience__content">
-                            <!-- <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div> -->
-
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">AUTOMATION ENGINEER</h3>
-                                <span class="exeprience_company">
-                                    From 2013 to 2020 | 
-                                    <a href="https://viknastyle.com.ua/" target="_blank">
-                                        ViknaStyle
-                                    </a>
-                                </span>
-                                <p class="experience-description">Work in this company dedicating the best
-                                    responsibility in the area that corresponds, delivering the best results for the
-                                    company and improving productivity.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
                 <section class="languages section">
                     <h2 class="section-title">Languages</h2>
 
                     <div class="languages__container">
                         <ul class="languages__content bd-grid">
                             <li class="languages__name">
-                                <span class="languages__circle"></span>English (A2)
+                                <span class="languages__circle"></span>English (B1)
                             <li class="languages__name">
                                 <span class="languages__circle"></span>Russian (C2)
                             </li>
